@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reavyfeex</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+
+</head>
+<body>
+    <header>
+       <h1>Reavyfeex</h1>
+        <li>
+            <a href="https://www.facebook.com/Reavyfeex" class="facebook"><img src="images/1440580440_Facebook.png"></a>
+        </li>
+        <li>
+            <a href="https://instagram.com/reavyfeex/" class="instagram"><img src="images/1440580421_Instagram.png"></a>
+        </li>
+    </header>
+    <nav>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="map.html">Around the world</a></li> 
+        <li><a href="images.html">Images</a></li> 
+    </nav>
+    <section>
+       
+       <p>Let's travel around the world to meet the natural habitat of our big cats.</p>
+     
+    </section>
+    
+  <div id="theDiv"><img src="images/tiger.png"</div>
+    <button id="move">Click me</button>
+    
+         <div class="map_container">
+    
+        <!--dots-->
+        <a class="dot" style="top:73px;  left:110px;" continent="NA" city="lynx"></a>
+        
+        <a class="dot" style="top:156px; left:172px;" continent="SA" city="jaguar"></a>
+        
+        	<a class="dot" style="top:127px; left:257px;" continent="AF" city="cheetah"></a>
+        
+        	<a class="dot" style="top:142px; left:281px;" continent="AF" city="leopard"></a>
+        
+        <a class="dot" style="top:130px; left:335px;" continent="AS" city="tiger"></a>
+            
+        <form id="mapForm" name="mapForm" class="form_continent" method="post" action="">
+				<select name="continent" id="continent">
+                    <option value="AF">Africa</option>
+					<option value="AS">Asia</option>
+                    <option value="NA">North America</option>
+                    <option value="SA">South America</option>
+					<option value="ALL" selected="selected">Show all continents</option>
+        	    </select>
+         </form>
+        		<!-- City details -->
+			<div class="detail_container">
+				<!-- City -->
+				<div class="city_detail">
+					<h3>Choose a dot</h3>
+					<p>To learn about the natural habitat of our big cats</p>
+				</div>
+			</div>
+    </div>
+        <div class="city_detail_container">
+			
+            <!-- Animal -->
+			<div class="city_detail" id="lynx">
+				<img class="city_photo" src="images/carousel/lynx.jpg" alt="lynx" width="75" height="75" />
+				<div class="city_info">
+					<h2>Lynx</h2>
+					<h3>North America</h3>
+					<p>The lynx is a solitary cat that, our dot is in North America but the lynx habitat are the northern forest of North America, Europe and Asia.</p>
+				</div>
+			</div>
+         <!-- Animal -->
+			<div class="city_detail" id="jaguar">
+				<img class="city_photo" src="images/carousel/jaguar.jpg" alt="jaguar" width="75" height="75" />
+				<div class="city_info">
+					<h2>Jaguar</h2>
+					<h3>South America</h3>
+					<p>A long time ago jaguars roamed from the southern tip of the continent to the U.S-Mexican border. Today jaguars are found only in remote regions of South and Central America—particularly in the Amazon Basin.</p>
+				</div>
+                <div class="clear_both"></div>
+			</div>
+           <!-- Animal -->
+			<div class="city_detail" id="leopard">
+				<img class="city_photo" src="images/carousel/leopard.jpg" alt="leopard" width="75" height="75" />
+				<div class="city_info">
+					<h2>Leopard</h2>
+					<h3>Africa</h3>
+					<p>Leopards are graceful and powerful big cats closely related to lions, tigers, and jaguars. They live in sub-Saharan Africa, northeast Africa, Central Asia, India, and China. However, many of their populations are endangered, especially outside of Africa.</p>
+				</div>
+                <div class="clear_both"></div>
+			</div>
+            
+               <!-- Animal -->
+			<div class="city_detail" id="cheetah">
+				<img class="city_photo" src="images/carousel/cheeta.jpg" alt="cheetah" width="75" height="75" />
+				<div class="city_info">
+					<h2>Cheetah</h2>
+					<h3>Africa</h3>
+					<p>Most wild cheetahs are found in eastern and southwestern Africa. Perhaps only 7,000 to 10,000 of these big cats remain.</p>
+				</div>
+                <div class="clear_both"></div>
+			</div>
+        <div class="city_detail" id="tiger">
+				<img class="city_photo" src="images/carousel/tiger.JPG" alt="tiger" width="75" height="75" />
+				<div class="city_info">
+					<h2>Tigers</h2>
+					<h3>Asia</h3>
+					<p>Bengal tigers live in India and are sometimes called Indian tigers. They are the most common tiger and number about half of all wild tigers. </p>
+				</div>
+            <div class="clear_both"></div>
+			</div>
+        
+        </div>	
+    </div>
+    
+   
+        
+<!-- jquery -->
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+
+
+
+
+
+
+<!-- main -->
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

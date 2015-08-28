@@ -1,0 +1,584 @@
+body{
+background-color: #939070;
+}
+
+
+header{
+background: url(../images/nav.png) no-repeat top left;
+height:162px;
+width:100%;
+background-color: #595959;
+position:relative;
+}
+
+header h1{
+text-indent: -9999px;
+}
+.instagram{
+position: absolute;
+max-width: 100%;
+right:30px;
+top:50px;
+}
+
+.facebook{
+position: absolute;
+max-width: 100%;
+right:100px;
+top:50px;
+}
+
+header li{
+display: inline;
+}
+
+nav{
+width:100%;
+height:30px;
+background-color: #6E826C;
+text-transform:uppercase;
+padding-top: 15px;
+
+}
+
+nav li{
+display:inline;
+padding-left: 17%;
+text-decoration: none;
+letter-spacing: 1px;
+}
+
+a{
+text-decoration: none;
+color:white;
+}
+
+a:hover{
+color: darkslategray;
+}
+
+section p{
+color: white;
+font-family: fantasy;
+width: 500px;
+margin: auto;
+padding-top: 50px;
+padding-bottom: 40px;
+letter-spacing: .7px;
+line-height: 1.5em;
+border-bottom: 3px solid white;
+}
+
+
+
+/*carousel*/
+
+.container{
+position: realtive;
+width:960px;
+margin: 0px;
+background-color: white;
+margin: 30px auto 20px auto;}
+
+.image_container{
+margin: 0px;
+background: url(../images/carousel/background.jpg) no-repeat 0px 0px;
+height:340px;
+position: relative;
+}
+
+#carousel{
+margin: 0px auto 0px auto; 
+width: 600px; 
+height: 300px;
+}
+
+.data{
+display:none;
+}
+
+#rotation_img{
+width: 300px; 
+height: 225px; 
+cursor: pointer; 
+}
+
+.nextItem { 
+position: absolute; 
+top: 150px; 
+left: 0px; 
+z-index: 1001; 
+cursor: pointer; 
+}
+.prevItem { 
+position: absolute; 
+top: 150px; 
+right: 0px; 
+z-index: 1002; 
+cursor: pointer; }
+
+.information{
+width: 435px; 
+border-left: 3px solid #713e1b; 
+margin: 0px 0px 0px 165px; 
+padding: 0px 0px 0px 20px;
+}
+
+#text h2 { 
+font-family: Georgia; 
+font-size: 32px; 
+font-weight: normal; 
+margin: 5px 0px 5px 0px; 
+color: #6d8824; 
+}
+
+#text p { 
+font-family: Arial;
+font-size: 14px; 
+color: #444; 
+margin: 0px 0px 0px 3px; 
+}
+
+.photo{
+width: 180px;
+}
+
+
+
+/*css for chart*/
+
+.chart-container { 
+    width: 500px;
+    border: 1px solid #888;
+    margin-left: 30%;
+    margin-top:30px;
+    background-color:lightgray;
+}
+
+.chart-title {
+    background-color: #A1967A;
+    padding: 5px 0px 10px 15px; 
+    margin: 0px; }
+
+.chart-title h2 { 
+    margin: 0px; 
+    color:black; 
+    font-family: Georgia; }
+
+.chart-title p { 
+    margin: 0px;
+    color: #222; }
+
+.chart-content { 
+    height: 340px; 
+    position: relative; 
+    overflow: hidden; 
+    margin: 5px 0px 0px 0px; }
+
+.chart-y-axis { 
+    width: 50px; 
+    height: 300px; 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; }
+
+.chart-y-axis p { 
+    margin: 0px 0px 0px 10px; 
+    padding: 0px 0px 0px 5px; 
+    width: 35px; position: absolute; 
+    border-bottom: 1px solid #ccc; }
+
+.chart-x-axis { 
+    height: 50px;
+    position: absolute; 
+    top: 300px;
+    left: 50px; }
+
+.chart-x-axis p { 
+    position: absolute; 
+    top: 0px; 
+    width: 100px; 
+    color:#D67027; 
+    text-align: center;
+    margin-top:2px;
+   }
+
+.chart-area {
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	left: 50px;
+	background: #fff url(../images/concrete_seamless/concrete_seamless.png) no-repeat 0px 0px;
+}
+
+.chart-area .chart-bar {
+	position: absolute;
+	bottom: 0px;
+	width: 50px;
+	height: 0px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-repeat: no-repeat;
+	background-position: 50% bottom;
+}
+
+.chart-area .chart-bar.tiger   { 
+    background-color: rgba(12,38,32,.6);
+    background-image: url(../images/tiger.png); }
+
+.chart-area .chart-bar.jaguars { 
+    background-color: rgba(65,12,137,.6); 
+    background-image: url(../images/jaguar.png); }
+
+.chart-area .chart-bar.cheetahs{
+    background-color: rgba(4,11,83,.6); 
+    background-image: url(../images/cheetah.png); }
+
+.chart-area .chart-bar.leopards{ 
+    background-color: rgba(140,6,6,.6); 
+    background-image: url(../images/leopard.png); }
+
+.chart-area .chart-bar.lynx{ 
+    background-color: rgba(144,8,152,.6);
+    background-image: url(../images/lynx.png); }
+
+.chart-area .chart-bar p { 
+    margin: 5px 0px 0px 0px; 
+    text-align: center; 
+    color: #fff; 
+    display: none; }
+
+/* Map*/
+
+/*  Animal Info   */
+.city_detail_container { display:none }
+.city_detail_container .city_detail { width: 300px; border: 1px solid #ccc; }
+
+
+/*  Interactive Map Container */
+.map_container {
+	background-image: url(../images/map/map.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 325px;
+	width: 760px;
+	position: relative;
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.map_container .clear_both { clear: both; line-height: 1px; }
+
+.map_container .city_info h2 {
+	margin: 0px 0px 0px 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.map_container .city_info h3 {
+	margin: 0px 0px 12px 0px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #2c3748;
+}
+.map_container p { margin: 0px 0px 12px 0px; }
+
+.map_container  a:visited { color: #AA0000; margin: 0px 10px 0px 0px; }
+.map_container a.dot {
+	background-image: url(../images/map/dots.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 20px;
+	width: 20px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+}
+.map_container a.dot.selected {
+	background-position: 0px -40px;
+}
+.map_container a.dot:hover {
+	background-position: 0px -20px;
+}
+.map_container .form_continent {
+	position: absolute;
+	top: 265px;
+	left: 30px;
+}
+.map_container .detail_container {
+	position: absolute;
+	top: 35px;
+	left: 480px;
+	width: 240px;
+	height: 260px;
+}
+.map_container .city_detail {
+	position: absolute;
+	top: 0px;
+	width: 230px;
+	padding: 10px 0px 0px 12px;
+	border-left: 1px solid #a9b5c8;
+	border-top: 1px solid #a9b5c8;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.map_container .city_detail .city_photo {
+	float: left;
+	margin: 0px 15px 0px 0px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+	box-shadow: 0px 5px 3px #4e5d74;
+	-webkit-box-shadow: 0px 5px 3px #4e5d74;
+	-moz-box-shadow: 0px 5px 3px #4e5d74;
+	-webkit-border-radius: 8px;
+}
+.map_container .city_detail .city_info {
+	width: 130px;
+	float: left;
+}
+
+/*Image Gallery*/
+
+.gallery{
+    width:460px;
+    margin: auto;
+    margin-top: 20px;
+    border: 4px ridge #595959;
+    padding: 5px;
+
+}
+
+body:after {
+  content: url(../images/image-gallery/close.png) url(../images/image-gallery/loading.gif) url(../images/image-gallery/prev.png) url(../images/image-gallery/next.png);
+  display: none;
+}
+
+/* line 11, ../sass/lightbox.sass */
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none;
+}
+
+/* line 20, ../sass/lightbox.sass */
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+}
+/* line 28, ../sass/lightbox.sass */
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 32, ../sass/lightbox.sass */
+.lightbox a img {
+  border: none;
+}
+
+/* line 35, ../sass/lightbox.sass */
+.lb-outerContainer {
+  position: relative;
+  background-color: white;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 44, ../sass/lightbox.sass */
+.lb-container {
+  padding: 4px;
+}
+
+/* line 47, ../sass/lightbox.sass */
+.lb-loader {
+  position: absolute;
+  top: 43%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+/* line 56, ../sass/lightbox.sass */
+.lb-cancel {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background: url(../images/image-gallery/loading.gif) no-repeat;
+}
+
+/* line 63, ../sass/lightbox.sass */
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 71, ../sass/lightbox.sass */
+.lb-container > .nav {
+  left: 0;
+}
+
+/* line 74, ../sass/lightbox.sass */
+.lb-nav a {
+  outline: none;
+}
+
+/* line 77, ../sass/lightbox.sass */
+.lb-prev, .lb-next {
+  width: 49%;
+  height: 100%;
+  cursor: pointer;
+  /* Trick IE into showing hover */
+  display: block;
+}
+
+/* line 84, ../sass/lightbox.sass */
+.lb-prev {
+  left: 0;
+  float: left;
+}
+/* line 87, ../sass/lightbox.sass */
+.lb-prev:hover {
+  background: url(../images/image-gallery/prev.png) left 48% no-repeat;
+}
+
+/* line 90, ../sass/lightbox.sass */
+.lb-next {
+  right: 0;
+  float: right;
+}
+/* line 93, ../sass/lightbox.sass */
+.lb-next:hover {
+  background: url(../images/image-gallery/next.png) right 48% no-repeat;
+}
+
+/* line 96, ../sass/lightbox.sass */
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+  width: 100%;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 103, ../sass/lightbox.sass */
+.lb-data {
+  padding: 0 4px;
+  color: #bbbbbb;
+}
+/* line 106, ../sass/lightbox.sass */
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+}
+/* line 111, ../sass/lightbox.sass */
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em;
+}
+/* line 115, ../sass/lightbox.sass */
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999999;
+}
+/* line 121, ../sass/lightbox.sass */
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url(../images/image-gallery/close.png) top right no-repeat;
+  text-align: right;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+/* line 130, ../sass/lightbox.sass */
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/*Animation*/
+
+ div#theDiv {
+            position:relative;
+            width: 250px;
+            height: 180px;
+            margin: 10px;
+            padding: 20px;
+            background: #939070;
+           /* border: 2px solid black;*/
+            cursor: pointer;
+        }
+        p, span {
+            font-size: 16pt;
+        }
+        button {
+            margin: 5px;
+        }
+
+
+
+
